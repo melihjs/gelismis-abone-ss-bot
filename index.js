@@ -2,13 +2,13 @@ const { Client, MessageEmbed } = require('discord.js');
 const disbut = require('discord-buttons');
 const client = new Client();
 require('discord-buttons')(client);
-const channel = "878345166052798526"; // abone kanalı id
-const log = "878345122826289152"; // abone log kanalı id
-const rol = "878575290316640327"; // abone rol id
+const channel = ""; // abone kanalı id
+const log = ""; // abone log kanalı id
+const rol = ""; // abone rol id
 const size = "1"; // öylesine bunu 1 olarak bırakın ellemeyin bozulur
-const yes = "853963706563035186"; // evet emoji id
-const no = "853963654080757800"; // hayır emoji id
-const admin = "815844438387195905"; // abone sorumlusu id
+const yes = ""; // evet emoji id
+const no = ""; // hayır emoji id
+const admin = ""; // abone sorumlusu id
 client.log = (channelID, options) => client.channels.cache.get(channelID).send(options);
 
 client.on('ready', async () => console.log('ready'));
